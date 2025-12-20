@@ -2,12 +2,8 @@
 
 I was inspired to build this after discovering the Batman color scheme in Ghostty. It felt so unusual that I had to see what the full desktop would look like. The goal is a bold, moody look that keeps the palette disciplined and the visuals clean for long sessions.
 
-<table>
-  <tr>
-    <td align="center" valign="top"><img src="preview.png" alt="Omarchy Batman Theme preview" width="480"></td>
-    <td align="center" valign="top"><img src="preview2.png" alt="Omarchy Batman Theme preview 2" width="480"></td>
-  </tr>
-</table>
+<img src="preview.png" alt="Omarchy Batman Theme preview" width="960">
+<img src="preview2.png" alt="Omarchy Batman Theme preview 2" width="960">
 
 ## What's included
 - Hyprland: custom border colors, 3px borders, and opacity rules (`hyprland.conf`)
