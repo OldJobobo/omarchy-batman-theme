@@ -3,6 +3,7 @@
 I was inspired to build this after discovering the Batman color scheme in Ghostty. It felt so unusual that I had to see what the full desktop would look like. The goal is a bold, moody look that keeps the palette disciplined and the visuals clean for long sessions.
 
 ![Omarchy Batman Theme preview](preview.png)
+![Omarchy Batman Theme preview 2](preview2.png)
 
 ## What's included
 - Hyprland: custom border colors, 3px borders, and opacity rules (`hyprland.conf`)
