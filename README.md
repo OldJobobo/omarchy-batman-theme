@@ -31,6 +31,7 @@ Back up your existing Waybar config, then copy the theme files from this repo:
 mkdir -p ~/.config/waybar.backup
 cp -a ~/.config/waybar/* ~/.config/waybar.backup/
 cp -a waybar-theme/* ~/.config/waybar/
+omarchy-restart-waybar
 ```
 
 Wallpapers live in `backgrounds/`; `preview.png` and `preview2.png` show the intended look.
