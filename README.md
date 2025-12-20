@@ -1,10 +1,8 @@
-# Omarchy Flat Batman Theme
-
-Flat take on the Batman palette for a Hyprland-based Wayland setup and common CLI tools. Includes matching wallpapers (`backgrounds/`) and previews (`preview.png`, `preview2.png`).
+# Omarchy Batman Theme
 
 I was inspired to build this after discovering the Batman color scheme in Ghostty. It felt so unusual that I had to see what the full desktop would look like. The goal is a bold, moody look that keeps the palette disciplined and the visuals clean for long sessions.
 
-![Omarchy Flat Batman Theme preview](preview.png)
+![Omarchy Batman Theme preview](preview.png)
 
 ## What's included
 - Hyprland: dimmed inactive windows, zero borders, custom opacity rules (`hyprland.conf`)
