@@ -5,14 +5,15 @@ I was inspired to build this after discovering the Batman color scheme in Ghostt
 ![Omarchy Batman Theme preview](preview.png)
 
 ## What's included
-- Hyprland: dimmed inactive windows, zero borders, custom opacity rules (`hyprland.conf`)
+- Hyprland: custom border colors, 3px borders, and opacity rules (`hyprland.conf`)
 - Hyprlock colors for ring and text (`hyprlock.conf`)
-- Waybar styling with Iosevka and translucent bar (`waybar.css`), based on https://github.com/HANCORE-linux/waybar-themes?tab=readme-ov-file by HANCORE-Linux
+- Waybar colors (`waybar.css`), based on https://github.com/HANCORE-linux/waybar-themes?tab=readme-ov-file by HANCORE-Linux
 - Terminals: Alacritty (`alacritty.toml`), Ghostty (`ghostty.conf`), Kitty (`kitty.conf`), Warp (`warp.yaml`)
 - Shell/UI tools: btop (`btop.theme`), Cava (`cava_theme`), fzf (`fzf.fish`), fish colors (`colors.fish`)
 - Notifications and helpers: Mako (`mako.ini`), SwayOSD (`swayosd.css`), Walker launcher (`walker.css`), Wofi (`wofi.css`)
-- Neovim colors (`neovim.lua`), VS Code (`vscode.json`)
-- Browser + apps: Chromium (`chromium.theme`), Steam (`steam.css`), Vencord (`vencord.theme.css`), GTK (`gtk.css`), Aether override (`aether.override.css`)
+- Neovim Aether colorscheme + LazyVim config (`neovim.lua`), VS Code (`vscode.json`)
+- GTK + Aether overrides (`gtk.css`, `aether.override.css`)
+- Browser + apps: Chromium (`chromium.theme`), Steam (`steam.css`), Vencord (`vencord.theme.css`)
 - Icon theme pointer (`icons.theme`)
 
 ## Quick start
