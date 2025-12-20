@@ -6,7 +6,7 @@ I was inspired to build this after discovering the Batman color scheme in Ghostt
 
 ## What's included
 - Hyprland: custom border colors, 3px borders, and opacity rules (`hyprland.conf`)
-- Hyprlock colors for ring and text (`hyprlock.conf`)
+- Hyprlock palette variables (`hyprlock.conf`)
 - Waybar colors (`waybar.css`), based on https://github.com/HANCORE-linux/waybar-themes?tab=readme-ov-file by HANCORE-Linux
 - Terminals: Alacritty (`alacritty.toml`), Ghostty (`ghostty.conf`), Kitty (`kitty.conf`), Warp (`warp.yaml`)
 - Shell/UI tools: btop (`btop.theme`), Cava (`cava_theme`), fzf (`fzf.fish`), fish colors (`colors.fish`)
@@ -21,6 +21,15 @@ Run the installer and it will place everything where it belongs:
 
 ```bash
 omarchy-theme-install https://github.com/OldJobobo/omarchy-batman-theme
+```
+
+## Waybar install
+Back up your existing Waybar config, then copy the theme files from this repo:
+
+```bash
+mkdir -p ~/.config/waybar.backup
+cp -a ~/.config/waybar/* ~/.config/waybar.backup/
+cp -a waybar-theme/* ~/.config/waybar/
 ```
 
 Wallpapers live in `backgrounds/`; `preview.png` and `preview2.png` show the intended look.
@@ -47,5 +56,4 @@ Wallpapers live in `backgrounds/`; `preview.png` and `preview2.png` show the int
 </table>
 
 ## Notes
-- Hyprland rules enforce full opacity on active windows and slight dimming on inactive ones; adjust `windowrule` lines if you want different defaults.
 - Waybar styling is derived from HANCORE-Linux's Waybar themes collection and adjusted to match the Batman palette.
