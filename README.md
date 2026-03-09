@@ -37,25 +37,14 @@ omarchy-restart-waybar
 Wallpapers live in `backgrounds/`; `preview.png` and `preview2.png` show the intended look.
 
 ## Background previews
-<table>
-  <tr>
-    <td align="center" valign="top"><img src="backgrounds/batman-arkham-3840x2160-18364.jpg" alt="Batman Arkham" width="180"><br><sub>batman-arkham-3840x2160-18364.jpg</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/batman-hope-takes-flight-kh-3840x2160.jpg" alt="Batman Hope Takes Flight" width="180"><br><sub>batman-hope-takes-flight-kh-3840x2160.jpg</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/batman-in-yellow-dg-3840x2160.jpg" alt="Batman In Yellow" width="180"><br><sub>batman-in-yellow-dg-3840x2160.jpg</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/batman-silhouette-dc-comics-dc-superheroes-3840x2160-927.jpg" alt="Batman Silhouette" width="180"><br><sub>batman-silhouette-dc-comics-dc-superheroes-3840x2160-927.jpg</sub></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top"><img src="backgrounds/batman-the-dark-detective-h9-3840x2160.jpg" alt="Batman The Dark Detective" width="180"><br><sub>batman-the-dark-detective-h9-3840x2160.jpg</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/dc-batman-classic-ec-3840x2160.jpg" alt="DC Batman Classic" width="180"><br><sub>dc-batman-classic-ec-3840x2160.jpg</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/gotham-guardian-batman-l5-3840x2160.jpg" alt="Gotham Guardian Batman" width="180"><br><sub>gotham-guardian-batman-l5-3840x2160.jpg</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/wallhaven-1j3yr1.jpg" alt="Wallhaven 1j3yr1" width="180"><br><sub>wallhaven-1j3yr1.jpg</sub></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top"><img src="backgrounds/wallhaven-3zg9z3.jpg" alt="Wallhaven 3zg9z3" width="180"><br><sub>wallhaven-3zg9z3.jpg</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/wallhaven-6llxkw.jpg" alt="Wallhaven 6llxkw" width="180"><br><sub>wallhaven-6llxkw.jpg</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/wallhaven-723ljy.jpg" alt="Wallhaven 723ljy" width="180"><br><sub>wallhaven-723ljy.jpg</sub></td>
-  </tr>
-</table>
+
+| | | |
+| --- | --- | --- |
+| ![](backgrounds/0-dark-knight-smoke.jpg) | ![](backgrounds/1-batwing-rise.jpg) | ![](backgrounds/2-caped-noir.jpg) |
+| ![](backgrounds/3-gotham-vigil.jpg) | ![](backgrounds/4-eclipse-knight.jpg) | ![](backgrounds/5-moonlit-swarm.jpg) |
+| ![](backgrounds/6-gargoyle-vigil.jpg) | ![](backgrounds/7-cave-sentinel.jpg) | ![](backgrounds/8-split-batsigil.jpg) |
+| ![](backgrounds/9-rainy-knight.jpg) | ![](backgrounds/10-moon-silhouette.jpg) | ![](backgrounds/11-gotham-crest.jpg) |
+| ![](backgrounds/12-catwoman-duet.jpg) | ![](backgrounds/13-yellow-knight.jpg) |  |
 
 ## Notes
 - Waybar styling is derived from HANCORE-Linux's Waybar themes collection and adjusted to match the Batman palette.
