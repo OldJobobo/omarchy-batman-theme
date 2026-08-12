@@ -1,23 +1,61 @@
-accent = "#737174"
-cursor = "#fcef0c"
-foreground = "#dadbd6"
-background = "#1b1d1e"
-selection_foreground = "#dadbd6"
-selection_background = "#737174"
+# Omarchy adapter for the canonical Tinted Theming Base24 Batman scheme.
+# See batman-base24.yaml. The ANSI and terminal UI values below preserve the
+# original Ghostty/iTerm2 Batman palette where it differs from Base24.
+mode = "dark"
 
-color0 = "#505354"
-color1 = "#e6dc44"
+# Original terminal UI colors where Omarchy exposes a compatible role. Omarchy
+# resolves cursor from bright_fg, so the Bat-Signal cursor remains app-specific.
+accent = "#fcef0c"
+foreground = "#a7a8a3"
+background = "#1b1d1e"
+selection_foreground = "#f0e04a"
+selection_background = "#4d504c"
+
+# Canonical Base24 semantic ramp.
+bg = "#1b1d1e"          # base00
+lighter_bg = "#1b1d1e"  # base01
+selection = "#505354"   # base02
+muted = "#6d6f6e"       # base03
+dark_fg = "#8a8c89"     # base04
+fg = "#a7a8a3"          # base05
+light_fg = "#c5c5be"    # base06
+bright_fg = "#dadad5"   # base07
+red = "#e6db43"         # base08
+green = "#c8be46"       # base0B
+yellow = "#f3fd21"      # base09; Batman's canonical yellow
+blue = "#737074"        # base0D
+magenta = "#737271"     # base0E
+cyan = "#615f5e"        # base0C
+orange = "#f3fd21"      # Batman has no separate orange hue
+brown = "#736d21"       # base0F
+dark_bg = "#353738"     # base10
+darker_bg = "#1a1b1c"  # base11
+bright_red = "#fff68d"      # base12
+bright_yellow = "#feed6c"   # base13
+bright_green = "#fff27c"    # base14
+bright_cyan = "#a2a2a5"     # base15
+bright_blue = "#909495"     # base16
+bright_magenta = "#9a999d"  # base17
+
+# Explicit Omarchy UI decisions grounded in the original terminal theme.
+active_border_color = "#fcef0c"
+active_tab_background = "#505354"
+
+# Omarchy compatibility aliases mirror the semantic roles. The shipped terminal
+# configs retain the exact original Ghostty/iTerm2 ANSI palette.
+color0 = "#1b1d1e"
+color1 = "#e6db43"
 color2 = "#c8be46"
-color3 = "#f4fd22"
-color4 = "#737174"
-color5 = "#747271"
-color6 = "#62605f"
-color7 = "#c6c5bf"
-color8 = "#a3a3a6"
-color9 = "#fff78e"
-color10 = "#fff27d"
+color3 = "#f3fd21"
+color4 = "#737074"
+color5 = "#737271"
+color6 = "#615f5e"
+color7 = "#a7a8a3"
+color8 = "#6d6f6e"
+color9 = "#fff68d"
+color10 = "#fff27c"
 color11 = "#feed6c"
-color12 = "#919495"
-color13 = "#9a9a9d"
-color14 = "#a3a3a6"
-color15 = "#dadbd6"
+color12 = "#909495"
+color13 = "#9a999d"
+color14 = "#a2a2a5"
+color15 = "#dadad5"

@@ -2,14 +2,18 @@
 
 I was inspired to build this after discovering the Batman color scheme in Ghostty. It felt so unusual that I had to see what the full desktop would look like. The goal is a bold, moody look that keeps the palette disciplined and the visuals clean for long sessions.
 
+The palette remains grounded in the original Ghostty/iTerm2 graphite-and-yellow Batman theme. `batman-base24.yaml` preserves the canonical Tinted Theming Base24 conversion, while `colors.toml` adapts its semantic ramp for Omarchy and retains the original terminal ANSI, cursor, and selection colors exactly.
+
 <img src="preview.png" alt="Omarchy Batman Theme preview" width="960">
 <img src="preview2.png" alt="Omarchy Batman Theme preview 2" width="960">
 
 ## What's included
-- Hyprland: custom border colors, 3px borders, and opacity rules (`hyprland.conf`)
-- Hyprlock palette variables (`hyprlock.conf`)
-- Waybar colors (`waybar.css`), based on https://github.com/HANCORE-linux/waybar-themes?tab=readme-ov-file by HANCORE-Linux
-- Terminals: Alacritty (`alacritty.toml`), Ghostty (`ghostty.conf`), Kitty (`kitty.conf`), Warp (`warp.yaml`)
+- Omarchy Quattro: semantic Base24 palette (`colors.toml`), native shell surfaces (`shell.toml`), and Lua Hyprland treatment (`hyprland.lua`)
+- Canonical palette reference (`batman-base24.yaml`), sourced from Tinted Theming's Base24 Batman scheme by FredHappyface
+- Hyprland 3.8 compatibility: custom border colors, 3px borders, and opacity rules (`hyprland.conf`)
+- Hyprlock compatibility palette variables (`hyprlock.conf`)
+- Legacy Waybar colors (`waybar.css`), based on https://github.com/HANCORE-linux/waybar-themes?tab=readme-ov-file by HANCORE-Linux
+- Terminals: Alacritty (`alacritty.toml`), Foot (`foot.ini`), Ghostty (`ghostty.conf`), Kitty (`kitty.conf`), Warp (`warp.yaml`)
 - Shell/UI tools: btop (`btop.theme`), Cava (`cava_theme`), fzf (`fzf.fish`), fish colors (`colors.fish`)
 - Notifications and helpers: Mako (`mako.ini`), SwayOSD (`swayosd.css`), Walker launcher (`walker.css`), Wofi (`wofi.css`)
 - Neovim Aether colorscheme + LazyVim config (`neovim.lua`), VS Code (`vscode.json`)
@@ -21,11 +25,13 @@ I was inspired to build this after discovering the Batman color scheme in Ghostt
 Run the installer and it will place everything where it belongs:
 
 ```bash
-omarchy-theme-install https://github.com/OldJobobo/omarchy-batman-theme
+omarchy theme install https://github.com/OldJobobo/omarchy-batman-theme
+omarchy theme set batman
 ```
 
-## Waybar install
-Back up your existing Waybar config, then copy the theme files from this repo:
+## Legacy Waybar install
+
+Omarchy Quattro uses the native shell treatment in `shell.toml`. For older Waybar-based Omarchy installations, back up your existing Waybar config and copy the compatibility theme files:
 
 ```bash
 mkdir -p ~/.config/waybar.backup
