@@ -44,13 +44,33 @@ Wallpapers live in `backgrounds/`; `preview.png` and `preview2.png` show the int
 
 ## Background previews
 
-| | | |
-| --- | --- | --- |
-| ![](backgrounds/0-dark-knight-smoke.jpg) | ![](backgrounds/1-batwing-rise.jpg) | ![](backgrounds/2-caped-noir.jpg) |
-| ![](backgrounds/3-gotham-vigil.jpg) | ![](backgrounds/4-eclipse-knight.jpg) | ![](backgrounds/5-moonlit-swarm.jpg) |
-| ![](backgrounds/6-gargoyle-vigil.jpg) | ![](backgrounds/7-cave-sentinel.jpg) | ![](backgrounds/8-split-batsigil.jpg) |
-| ![](backgrounds/9-rainy-knight.jpg) | ![](backgrounds/10-moon-silhouette.jpg) | ![](backgrounds/11-gotham-crest.jpg) |
-| ![](backgrounds/12-catwoman-duet.jpg) | ![](backgrounds/13-yellow-knight.jpg) |  |
+<table>
+  <tr>
+    <td><img src="backgrounds/0-dark-knight-smoke.jpg" width="280" alt="Dark Knight smoke"></td>
+    <td><img src="backgrounds/1-batwing-rise.jpg" width="280" alt="Batwing rise"></td>
+    <td><img src="backgrounds/2-caped-noir.jpg" width="280" alt="Caped noir"></td>
+  </tr>
+  <tr>
+    <td><img src="backgrounds/3-gotham-vigil.jpg" width="280" alt="Gotham vigil"></td>
+    <td><img src="backgrounds/4-eclipse-knight.jpg" width="280" alt="Eclipse knight"></td>
+    <td><img src="backgrounds/5-moonlit-swarm.jpg" width="280" alt="Moonlit swarm"></td>
+  </tr>
+  <tr>
+    <td><img src="backgrounds/6-gargoyle-vigil.jpg" width="280" alt="Gargoyle vigil"></td>
+    <td><img src="backgrounds/7-cave-sentinel.jpg" width="280" alt="Cave sentinel"></td>
+    <td><img src="backgrounds/8-split-batsigil.jpg" width="280" alt="Split bat sigil"></td>
+  </tr>
+  <tr>
+    <td><img src="backgrounds/9-rainy-knight.jpg" width="280" alt="Rainy knight"></td>
+    <td><img src="backgrounds/10-moon-silhouette.jpg" width="280" alt="Moon silhouette"></td>
+    <td><img src="backgrounds/11-gotham-crest.jpg" width="280" alt="Gotham crest"></td>
+  </tr>
+  <tr>
+    <td><img src="backgrounds/12-catwoman-duet.jpg" width="280" alt="Batman and Catwoman duet"></td>
+    <td><img src="backgrounds/13-yellow-knight.jpg" width="280" alt="Yellow knight"></td>
+    <td></td>
+  </tr>
+</table>
 
 ## Notes
 - Waybar styling is derived from HANCORE-Linux's Waybar themes collection and adjusted to match the Batman palette.
